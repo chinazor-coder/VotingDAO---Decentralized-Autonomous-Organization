@@ -1,0 +1,15 @@
+
+[project]
+name = "VotingDAO"
+authors = []
+telemetry = true
+[repl.analysis]
+passes = ["check_checker"]
+[repl.analysis.check_checker]
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[contracts.VotingDAO]
+path = "contracts/VotingDAO.clar"
+depends_on = []
